@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="27.0.2">
   <diagram name="k8s Service Routing" id="meh8bPrkDQd1ndtyiNP9">
-    <mxGraphModel dx="881752" dy="540516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1034752" dy="639516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -175,13 +175,13 @@
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-108" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EWl5Mx-XOkxDocJ85YJo-110" target="EWl5Mx-XOkxDocJ85YJo-120">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EWl5Mx-XOkxDocJ85YJo-109" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;测试使用&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EWl5Mx-XOkxDocJ85YJo-108">
+        <mxCell id="EWl5Mx-XOkxDocJ85YJo-109" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;测试使用&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="EWl5Mx-XOkxDocJ85YJo-108">
           <mxGeometry x="-0.0667" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-110" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;访问方式 1&lt;br&gt;[NodePort]&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DAE8FC" vertex="1" parent="1">
-          <mxGeometry x="-665" y="955" width="230" height="130" as="geometry" />
+          <mxGeometry x="-667.5" y="975" width="227.5" height="130" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-111" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EWl5Mx-XOkxDocJ85YJo-113" target="EWl5Mx-XOkxDocJ85YJo-121">
           <mxGeometry relative="1" as="geometry" />
@@ -191,7 +191,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="EWl5Mx-XOkxDocJ85YJo-113" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;访问方式 2&lt;br&gt;[Ingress + NodePort]&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7" vertex="1" parent="1">
+        <mxCell id="EWl5Mx-XOkxDocJ85YJo-113" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;访问方式 2&lt;br&gt;[Ingress]&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E1D5E7" vertex="1" parent="1">
           <mxGeometry x="-165" y="970" width="230" height="130" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EWl5Mx-XOkxDocJ85YJo-116" target="EWl5Mx-XOkxDocJ85YJo-122">
@@ -203,7 +203,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-116" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;访问方式 3&lt;br&gt;[LB]&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFE6CC" vertex="1" parent="1">
-          <mxGeometry x="312.5" y="970" width="237.5" height="130" as="geometry" />
+          <mxGeometry x="532.5" y="975" width="237.5" height="130" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-117" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EWl5Mx-XOkxDocJ85YJo-119" target="EWl5Mx-XOkxDocJ85YJo-123">
           <mxGeometry relative="1" as="geometry" />
@@ -214,7 +214,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-119" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;访问方式 4&lt;br&gt;[Ingress + LB]&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5E8D4" vertex="1" parent="1">
-          <mxGeometry x="780" y="975" width="260" height="130" as="geometry" />
+          <mxGeometry x="980" y="975" width="260" height="130" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-131" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EWl5Mx-XOkxDocJ85YJo-120" target="EWl5Mx-XOkxDocJ85YJo-129">
           <mxGeometry relative="1" as="geometry" />
@@ -232,30 +232,30 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-122" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;用户 → 云LB:80/443&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFE6CC" vertex="1" parent="1">
-          <mxGeometry x="303.75" y="1230" width="255" height="120" as="geometry" />
+          <mxGeometry x="523.75" y="1235" width="255" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-170" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EWl5Mx-XOkxDocJ85YJo-123" target="EWl5Mx-XOkxDocJ85YJo-159">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-123" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;用户 → 云LB:80/443&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#D5E8D4" vertex="1" parent="1">
-          <mxGeometry x="775" y="1235" width="270" height="120" as="geometry" />
+          <mxGeometry x="975" y="1235" width="270" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="EWl5Mx-XOkxDocJ85YJo-124" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;service.Type 一般为 ClusterIP&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-250" y="915" width="340" height="40" as="geometry" />
+        <mxCell id="EWl5Mx-XOkxDocJ85YJo-124" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 24px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;service.Type 一般为 ClusterIP&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-235" y="915" width="340" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-125" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;service.Type 为 LoadBalancer&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="760" y="920" width="340" height="40" as="geometry" />
+          <mxGeometry x="960" y="920" width="340" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-126" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;service.Type 为 LoadBalancer&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="265" y="915" width="340" height="40" as="geometry" />
+          <mxGeometry x="485" y="920" width="340" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-127" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;实际场景使用该方式&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1045" y="1020" width="240" height="40" as="geometry" />
+          <mxGeometry x="1260" y="1015" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-132" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EWl5Mx-XOkxDocJ85YJo-129" target="EWl5Mx-XOkxDocJ85YJo-130">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EWl5Mx-XOkxDocJ85YJo-129" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;kube-proxy&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#DAE8FC" vertex="1" parent="1">
+        <mxCell id="EWl5Mx-XOkxDocJ85YJo-129" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;kube-proxy&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#DAE8FC" vertex="1" parent="1">
           <mxGeometry x="-670" y="1385" width="235" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-130" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Pod&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#DAE8FC" vertex="1" parent="1">
@@ -270,35 +270,35 @@
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-146" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EWl5Mx-XOkxDocJ85YJo-134" target="EWl5Mx-XOkxDocJ85YJo-135">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EWl5Mx-XOkxDocJ85YJo-134" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Ingress Controller&lt;br&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#E1D5E7" vertex="1" parent="1">
+        <mxCell id="EWl5Mx-XOkxDocJ85YJo-134" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Ingress Controller&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#E1D5E7" vertex="1" parent="1">
           <mxGeometry x="-170" y="1580" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-147" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EWl5Mx-XOkxDocJ85YJo-135" target="EWl5Mx-XOkxDocJ85YJo-137">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EWl5Mx-XOkxDocJ85YJo-135" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Ingress&lt;br&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#E1D5E7" vertex="1" parent="1">
+        <mxCell id="EWl5Mx-XOkxDocJ85YJo-135" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Ingress Rule&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#E1D5E7" vertex="1" parent="1">
           <mxGeometry x="-170" y="1740" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-150" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EWl5Mx-XOkxDocJ85YJo-137" target="EWl5Mx-XOkxDocJ85YJo-142">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EWl5Mx-XOkxDocJ85YJo-137" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;service&lt;br&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#E1D5E7" vertex="1" parent="1">
+        <mxCell id="EWl5Mx-XOkxDocJ85YJo-137" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;service&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#E1D5E7" vertex="1" parent="1">
           <mxGeometry x="-170" y="1910" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-158" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EWl5Mx-XOkxDocJ85YJo-138" target="EWl5Mx-XOkxDocJ85YJo-139">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-138" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;kube-proxy&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFE6CC" vertex="1" parent="1">
-          <mxGeometry x="323.75" y="1400" width="212.5" height="120" as="geometry" />
+          <mxGeometry x="543.75" y="1405" width="212.5" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-156" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EWl5Mx-XOkxDocJ85YJo-139" target="EWl5Mx-XOkxDocJ85YJo-140">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-139" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;service&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFE6CC" vertex="1" parent="1">
-          <mxGeometry x="325" y="1580" width="212.5" height="120" as="geometry" />
+          <mxGeometry x="545" y="1585" width="212.5" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-140" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Pod&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFE6CC" vertex="1" parent="1">
-          <mxGeometry x="325" y="1750" width="212.5" height="120" as="geometry" />
+          <mxGeometry x="545" y="1755" width="212.5" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-142" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Pod&lt;br&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#E1D5E7" vertex="1" parent="1">
           <mxGeometry x="-170" y="2080" width="240" height="120" as="geometry" />
@@ -306,56 +306,59 @@
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-143" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Pod&lt;br&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#E1D5E7" vertex="1" parent="1">
           <mxGeometry x="-140" y="2110" width="240" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="EWl5Mx-XOkxDocJ85YJo-144" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Pod&lt;br&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#E1D5E7" vertex="1" parent="1">
+        <mxCell id="EWl5Mx-XOkxDocJ85YJo-144" value="&lt;font style=&quot;&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;Pod&lt;/font&gt;&lt;br&gt;&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#E1D5E7" vertex="1" parent="1">
           <mxGeometry x="-115" y="2140" width="240" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-151" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Pod&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#DAE8FC" vertex="1" parent="1">
           <mxGeometry x="-647.5" y="1605" width="235" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="EWl5Mx-XOkxDocJ85YJo-152" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Pod&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#DAE8FC" vertex="1" parent="1">
+        <mxCell id="EWl5Mx-XOkxDocJ85YJo-152" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Pod&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#DAE8FC" vertex="1" parent="1">
           <mxGeometry x="-622.5" y="1635" width="235" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-153" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Pod&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFE6CC" vertex="1" parent="1">
-          <mxGeometry x="352.5" y="1780" width="212.5" height="120" as="geometry" />
+          <mxGeometry x="572.5" y="1785" width="212.5" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="EWl5Mx-XOkxDocJ85YJo-154" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;Pod&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFE6CC" vertex="1" parent="1">
-          <mxGeometry x="380" y="1810" width="212.5" height="120" as="geometry" />
+        <mxCell id="EWl5Mx-XOkxDocJ85YJo-154" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Pod&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#FFE6CC" vertex="1" parent="1">
+          <mxGeometry x="600" y="1815" width="212.5" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-169" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EWl5Mx-XOkxDocJ85YJo-159" target="EWl5Mx-XOkxDocJ85YJo-160">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-159" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;kube-proxy&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#D5E8D4" vertex="1" parent="1">
-          <mxGeometry x="775" y="1405" width="270" height="120" as="geometry" />
+          <mxGeometry x="975" y="1405" width="270" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EWl5Mx-XOkxDocJ85YJo-160" target="EWl5Mx-XOkxDocJ85YJo-161">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-160" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Ingress Controller&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#D5E8D4" vertex="1" parent="1">
-          <mxGeometry x="775" y="1585" width="270" height="120" as="geometry" />
+          <mxGeometry x="975" y="1590" width="270" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-167" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EWl5Mx-XOkxDocJ85YJo-161" target="EWl5Mx-XOkxDocJ85YJo-162">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EWl5Mx-XOkxDocJ85YJo-161" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Ingress&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#D5E8D4" vertex="1" parent="1">
-          <mxGeometry x="775" y="1765" width="270" height="120" as="geometry" />
+        <mxCell id="EWl5Mx-XOkxDocJ85YJo-161" value="&lt;span style=&quot;font-size: 24px;&quot;&gt;Ingress Rule&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#D5E8D4" vertex="1" parent="1">
+          <mxGeometry x="975" y="1765" width="270" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-164" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="EWl5Mx-XOkxDocJ85YJo-162" target="EWl5Mx-XOkxDocJ85YJo-163">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-162" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;service&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#D5E8D4" vertex="1" parent="1">
-          <mxGeometry x="775" y="1945" width="270" height="120" as="geometry" />
+          <mxGeometry x="975" y="1945" width="270" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-163" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;Pod&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#D5E8D4" vertex="1" parent="1">
-          <mxGeometry x="775" y="2105" width="270" height="120" as="geometry" />
+          <mxGeometry x="975" y="2105" width="270" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-165" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;Pod&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#D5E8D4" vertex="1" parent="1">
-          <mxGeometry x="800" y="2125" width="270" height="120" as="geometry" />
+          <mxGeometry x="1000" y="2125" width="270" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="EWl5Mx-XOkxDocJ85YJo-166" value="&lt;span style=&quot;font-size: 17px;&quot;&gt;Pod&lt;/span&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#D5E8D4" vertex="1" parent="1">
-          <mxGeometry x="825" y="2155" width="270" height="120" as="geometry" />
+        <mxCell id="EWl5Mx-XOkxDocJ85YJo-166" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Pod&lt;/font&gt;" style="shape=note;whiteSpace=wrap;html=1;fillColor=#D5E8D4" vertex="1" parent="1">
+          <mxGeometry x="1025" y="2155" width="270" height="120" as="geometry" />
         </mxCell>
         <mxCell id="EWl5Mx-XOkxDocJ85YJo-171" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;service.Type 一般为 NodePort&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-727.5" y="900" width="340" height="40" as="geometry" />
+          <mxGeometry x="-727.5" y="920" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="EWl5Mx-XOkxDocJ85YJo-174" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: &amp;quot;PingFang SC&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans CN&amp;quot;, sans-serif; text-align: left; text-wrap-mode: wrap; background-color: rgb(252, 252, 252);&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;由Ingress Controller 暴露端口&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: &amp;quot;PingFang SC&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans CN&amp;quot;, sans-serif; text-align: left; text-wrap-mode: wrap; background-color: rgb(252, 252, 252);&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;service.Type=NodePort:30000~32767&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: rgba(0, 0, 0, 0.9); font-family: &amp;quot;PingFang SC&amp;quot;, -apple-system, BlinkMacSystemFont, &amp;quot;Segoe UI&amp;quot;, Roboto, Ubuntu, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, &amp;quot;Hiragino Sans GB&amp;quot;, &amp;quot;Microsoft YaHei UI&amp;quot;, &amp;quot;Microsoft YaHei&amp;quot;, &amp;quot;Source Han Sans CN&amp;quot;, sans-serif; text-align: left; text-wrap-mode: wrap; background-color: rgb(252, 252, 252);&quot;&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;service.Type=LoadBalancer:80/443&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="75" y="1595" width="430" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
